@@ -28,23 +28,18 @@
                         <span asp-validation-for="Input.Password" class="text-danger"></span>
                     </div>
                     <div>
+                    </div>
+                    <br />
+                    <div>
+                        @*#4873A6*@
+                        <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary" style="background-color: #4873A6 !important; color: #CCE5EA; border: 0px;">Log in</button>
+                    </div>
                         <div class="checkbox; accordion-body" style="color: #CCE5EA;">
                             <label asp-for="Input.RememberMe" class="form-label">
                                 <input class="form-check-input" style="background-color: #4873A6; border: 0px" asp-for="Input.RememberMe" />
                                 @Html.DisplayNameFor(m => m.Input.RememberMe)
                             </label>
                         </div>
-                    </div>
-                    <div>
-                        @*#4873A6*@
-                        <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary" style="background-color: #4873A6 !important; border: 0px;">Log in</button>
-                    </div>
-                    <br />
-                    <div>
-                        <p>
-                            <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" style="color: #CCE5EA">Register as a new user</a>
-                        </p>
-                    </div>
                 </form>
             </section>
         </div>
