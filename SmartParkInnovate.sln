@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartParkInnovate", "SmartParkInnovate.csproj", "{771BF67D-29F8-430E-90DE-C39AF0299A43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartParkInnovate.Core", "..\SmartParkInnovate.Core\SmartParkInnovate.Core.csproj", "{4DE07EFE-9D45-4121-A8E5-FE8E1F709D85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartParkInnovate.Infrastructure", "..\SmartParkInnovate.Infrastructure\SmartParkInnovate.Infrastructure.csproj", "{94589D76-7F92-49D5-8C99-48A21FC4128B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{771BF67D-29F8-430E-90DE-C39AF0299A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{771BF67D-29F8-430E-90DE-C39AF0299A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{771BF67D-29F8-430E-90DE-C39AF0299A43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE07EFE-9D45-4121-A8E5-FE8E1F709D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE07EFE-9D45-4121-A8E5-FE8E1F709D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE07EFE-9D45-4121-A8E5-FE8E1F709D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE07EFE-9D45-4121-A8E5-FE8E1F709D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94589D76-7F92-49D5-8C99-48A21FC4128B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94589D76-7F92-49D5-8C99-48A21FC4128B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94589D76-7F92-49D5-8C99-48A21FC4128B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94589D76-7F92-49D5-8C99-48A21FC4128B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
